@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Bun lock file can be ignored if you don't want to commit it
+# but usually good to commit for reproducible installs
+# bun.lockb
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# Build outputs (backend)
+api/dist/
+
+# Build outputs (frontend)
+web/dist/
+
+# IDE files
+.vscode/
+.idea/
